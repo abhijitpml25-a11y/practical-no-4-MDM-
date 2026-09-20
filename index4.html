@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Product Showcase (CM25002)</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-950 text-white">
+
+    <!-- Main Container -->
+    <div class="min-h-screen">
+
+        <!-- Navigation Bar -->
+        <nav class="border-b border-slate-800 bg-slate-900">
+            <div class="mx-auto flex max-w-7xl flex-col items-center
+                        justify-between gap-4 px-6 py-5
+                        sm:flex-row">
+
+                <div>
+                    <h1 class="text-2xl font-extrabold text-blue-400">
+                        NOVA STORE
+                    </h1>
+
+                    <p class="text-xs text-slate-400">
+                        New Collection 2026
+                    </p>
+                </div>
+
+                <!-- Responsive Navigation -->
+                <div class="flex flex-wrap justify-center gap-2 sm:gap-4">
+                    <a href="#products"
+                       class="rounded-lg px-4 py-2 text-sm
+                              transition hover:bg-blue-600">
+                        Products
+                    </a>
+
+                    <a href="#about"
+                       class="rounded-lg px-4 py-2 text-sm
+                              transition hover:bg-blue-600">
+                        About
+                    </a>
+
+                    <button
+                        class="rounded-lg bg-blue-600 px-4 py-2 text-sm
+                               font-semibold transition hover:bg-blue-500
+                               active:scale-95">
+                        Cart (0)
+                    </button>
+                </div>
+
+            </div>
+        </nav>
+
+
+        <!-- Hero Section -->
+        <section class="bg-gradient-to-r from-blue-700
+                        via-indigo-700 to-purple-700">
+
+            <div class="mx-auto flex max-w-7xl flex-col items-center
+                        justify-between gap-10 px-6 py-16
+                        md:flex-row md:py-20">
+
+                <!-- Hero Text -->
+                <div class="max-w-2xl text-center md:text-left">
+
+                    <span class="inline-block rounded-full
+                                 border border-blue-200/30
+                                 bg-white/10 px-4 py-2 text-sm
+                                 font-semibold">
+                        NEW COLLECTION
+                    </span>
+
+                    <h2 class="mt-5 text-4xl font-extrabold
+                               leading-tight sm:text-5xl lg:text-6xl">
+                        Discover Your
+                        <span class="text-cyan-300">
+                            Style
+                        </span>
+                    </h2>
+
+                    <p class="mt-5 text-base leading-7
+                              text-blue-100 sm:text-lg">
+                        Explore our latest collection of premium
+                        products designed for modern lifestyles.
+                    </p>
+
+                    <div class="mt-8 flex flex-wrap justify-center
+                                gap-4 md:justify-start">
+
+                        <button
+                            class="rounded-xl bg-white px-6 py-3
+                                   font-bold text-blue-700
+                                   transition duration-300
+                                   hover:-translate-y-1 hover:bg-blue-50
+                                   active:scale-95
+                                   focus:outline-none
+                                   focus:ring-2 focus:ring-white">
+                            Shop Now
+                        </button>
+
+                        <button
+                            class="rounded-xl border border-white/50
+                                   px-6 py-3 font-semibold
+                                   transition duration-300
+                                   hover:bg-white/10
+                                   active:scale-95">
+                            View Collection
+                        </button>
+
+                    </div>
+                </div>
+
+
+                <!-- Hero Product Box -->
+                <div class="flex h-64 w-full max-w-sm
+                            items-center justify-center
+                            rounded-3xl border border-white/20
+                            bg-white/10 shadow-2xl
+                            backdrop-blur-md
+                            sm:h-80">
+
+                    <div class="text-center">
+
+                        <div class="text-8xl">
+                            🎧
+                        </div>
+
+                        <p class="mt-4 text-xl font-bold">
+                            Nova Pro Headphones
+                        </p>
+
+                        <p class="mt-2 text-cyan-200">
+                            Premium Wireless Audio
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Products Section -->
+        <section id="products"
+                 class="mx-auto max-w-7xl px-6 py-16">
+
+            <!-- Heading -->
+            <div class="mb-10 text-center">
+
+                <p class="text-sm font-bold uppercase
+                          tracking-[0.3em] text-blue-400">
+                    OUR COLLECTION
+                </p>
+
+                <h2 class="mt-3 text-3xl font-extrabold
+                           sm:text-4xl">
+                    Featured Products
+                </h2>
+
+                <p class="mx-auto mt-3 max-w-2xl
+                          text-slate-400">
+                    Choose from our carefully selected collection
+                    of modern and stylish products.
+                </p>
+
+            </div>
+
+
+            <!-- Product Cards -->
+            <div class="flex flex-wrap justify-center gap-6">
+
+                <!-- Product 1 -->
+                <div class="flex w-full flex-col overflow-hidden
+                            rounded-2xl border border-slate-800
+                            bg-slate-900 shadow-xl
+                            transition duration-300
+                            hover:-translate-y-2 hover:border-blue-500
+                            sm:w-[45%] lg:w-[30%]">
+
+                    <div class="flex h-52 items-center justify-center
+                                bg-gradient-to-br from-blue-600
+                                to-indigo-700">
+
+                        <span class="text-8xl">
+                            🎧
+                        </span>
+                    </div>
+
+                    <div class="flex flex-1 flex-col p-6">
+
+                        <p class="text-sm font-semibold text-blue-400">
+                            AUDIO
+                        </p>
+
+                        <h3 class="mt-2 text-2xl font-bold">
+                            Nova Pro
+                        </h3>
+
+                        <p class="mt-3 flex-1 text-sm
+                                  leading-6 text-slate-400">
+                            Wireless headphones with premium sound
+                            quality and comfortable design.
+                        </p>
+
+                        <div class="mt-6 flex items-center
+                                    justify-between gap-4">
+
+                            <span class="text-2xl font-extrabold">
+                                ₹2,999
+                            </span>
+
+                            <button
+                                onclick="addToCart('Nova Pro')"
+                                class="rounded-xl bg-blue-600
+                                       px-4 py-2 font-semibold
+                                       transition duration-200
+                                       hover:bg-blue-500
+                                       active:scale-95">
+                                Add
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Product 2 -->
+                <div class="flex w-full flex-col overflow-hidden
+                            rounded-2xl border border-slate-800
+                            bg-slate-900 shadow-xl
+                            transition duration-300
+                            hover:-translate-y-2 hover:border-purple-500
+                            sm:w-[45%] lg:w-[30%]">
+
+                    <div class="flex h-52 items-center justify-center
+                                bg-gradient-to-br from-purple-600
+                                to-pink-600">
+
+                        <span class="text-8xl">
+                            ⌚
+                        </span>
+                    </div>
+
+                    <div class="flex flex-1 flex-col p-6">
+
+                        <p class="text-sm font-semibold text-purple-400">
+                            WEARABLE
+                        </p>
+
+                        <h3 class="mt-2 text-2xl font-bold">
+                            Nova Watch
+                        </h3>
+
+                        <p class="mt-3 flex-1 text-sm
+                                  leading-6 text-slate-400">
+                            Smart fitness watch with health tracking,
+                            notifications and modern design.
+                        </p>
+
+                        <div class="mt-6 flex items-center
+                                    justify-between gap-4">
+
+                            <span class="text-2xl font-extrabold">
+                                ₹3,499
+                            </span>
+
+                            <button
+                                onclick="addToCart('Nova Watch')"
+                                class="rounded-xl bg-purple-600
+                                       px-4 py-2 font-semibold
+                                       transition duration-200
+                                       hover:bg-purple-500
+                                       active:scale-95">
+                                Add
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Product 3 -->
+                <div class="flex w-full flex-col overflow-hidden
+                            rounded-2xl border border-slate-800
+                            bg-slate-900 shadow-xl
+                            transition duration-300
+                            hover:-translate-y-2 hover:border-green-500
+                            sm:w-[45%] lg:w-[30%]">
+
+                    <div class="flex h-52 items-center justify-center
+                                bg-gradient-to-br from-green-600
+                                to-teal-700">
+
+                        <span class="text-8xl">
+                            🎒
+                        </span>
+                    </div>
+
+                    <div class="flex flex-1 flex-col p-6">
+
+                        <p class="text-sm font-semibold text-green-400">
+                            ACCESSORIES
+                        </p>
+
+                        <h3 class="mt-2 text-2xl font-bold">
+                            Urban Backpack
+                        </h3>
+
+                        <p class="mt-3 flex-1 text-sm
+                                  leading-6 text-slate-400">
+                            Stylish and spacious backpack designed
+                            for college and everyday travel.
+                        </p>
+
+                        <div class="mt-6 flex items-center
+                                    justify-between gap-4">
+
+                            <span class="text-2xl font-extrabold">
+                                ₹1,499
+                            </span>
+
+                            <button
+                                onclick="addToCart('Urban Backpack')"
+                                class="rounded-xl bg-green-600
+                                       px-4 py-2 font-semibold
+                                       transition duration-200
+                                       hover:bg-green-500
+                                       active:scale-95">
+                                Add
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Product 4 -->
+                <div class="flex w-full flex-col overflow-hidden
+                            rounded-2xl border border-slate-800
+                            bg-slate-900 shadow-xl
+                            transition duration-300
+                            hover:-translate-y-2 hover:border-orange-500
+                            sm:w-[45%] lg:w-[30%]">
+
+                    <div class="flex h-52 items-center justify-center
+                                bg-gradient-to-br from-orange-500
+                                to-red-600">
+
+                        <span class="text-8xl">
+                            👟
+                        </span>
+                    </div>
+
+                    <div class="flex flex-1 flex-col p-6">
+
+                        <p class="text-sm font-semibold text-orange-400">
+                            FOOTWEAR
+                        </p>
+
+                        <h3 class="mt-2 text-2xl font-bold">
+                            Street Runner
+                        </h3>
+
+                        <p class="mt-3 flex-1 text-sm
+                                  leading-6 text-slate-400">
+                            Lightweight everyday sneakers built for
+                            comfort and active lifestyles.
+                        </p>
+
+                        <div class="mt-6 flex items-center
+                                    justify-between gap-4">
+
+                            <span class="text-2xl font-extrabold">
+                                ₹2,199
+                            </span>
+
+                            <button
+                                onclick="addToCart('Street Runner')"
+                                class="rounded-xl bg-orange-600
+                                       px-4 py-2 font-semibold
+                                       transition duration-200
+                                       hover:bg-orange-500
+                                       active:scale-95">
+                                Add
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Responsive Features -->
+        <section id="about"
+                 class="border-y border-slate-800 bg-slate-900">
+
+            <div class="mx-auto max-w-7xl px-6 py-12">
+
+                <div class="flex flex-col items-center
+                            justify-between gap-8
+                            md:flex-row">
+
+                    <div class="text-center md:text-left">
+
+                        <h2 class="text-2xl font-bold">
+                            Designed for Every Screen
+                        </h2>
+
+                        <p class="mt-2 text-slate-400">
+                            Our layout automatically adapts to
+                            smartphones, tablets and desktops.
+                        </p>
+
+                    </div>
+
+                    <div class="flex flex-wrap justify-center gap-3">
+
+                        <span class="rounded-lg bg-blue-500/10
+                                     px-4 py-2 text-sm text-blue-400">
+                            📱 Mobile
+                        </span>
+
+                        <span class="rounded-lg bg-purple-500/10
+                                     px-4 py-2 text-sm text-purple-400">
+                            📱 Tablet
+                        </span>
+
+                        <span class="rounded-lg bg-green-500/10
+                                     px-4 py-2 text-sm text-green-400">
+                            🖥️ Desktop
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="px-6 py-8 text-center">
+
+            <p class="font-semibold">
+                NOVA STORE
+            </p>
+
+            <p class="mt-2 text-sm text-slate-500">
+                Responsive Product Showcase using Tailwind CSS
+            </p>
+
+            <p class="mt-3 text-xs text-slate-600">
+                © 2026 | Academic Year 2026-27
+            </p>
+
+        </footer>
+
+    </div>
+
+
+    <!-- JavaScript -->
+    <script>
+
+        function addToCart(productName) {
+            alert(productName + " added to cart!");
+        }
+
+    </script>
+
+</body>
+</html>
